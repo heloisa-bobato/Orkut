@@ -1,0 +1,293 @@
+
+body{
+    background-color: rgb(243, 185, 243);
+}
+
+header.menu{
+    height: 70px;
+    width: 99%;
+    background-color: rgb(132, 9, 132) ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: auto !important;
+    border-radius: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+header > nav{
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    
+}
+
+header > nav > #title > h1{
+    font-size: 40px;
+    margin-right: 40px;
+    margin-top: 14px;
+}
+
+header ul{
+    display: flex;
+    gap: 8rem;
+    margin-right: 750px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.amgs{
+    text-decoration: none;
+    color: antiquewhite;
+    text-decoration-color: antiquewhite;
+}
+
+header ul :hover{
+    color: blueviolet;
+}
+
+header ul :active{
+    color: black;
+}
+
+header ul input{
+    height: 20px;
+    margin-right: 800px;
+}
+
+input{
+    background-color: rgb(219, 178, 238);
+    border-radius: 20px;
+}
+
+input ::placeholder{
+    color: rgb(117, 11, 216);
+}
+
+.container{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.container :not(:first-child){
+    margin-top: 30px;
+}
+
+.foto,
+.descricao,
+.amigos,
+.comunidades{
+    width: 98%;
+    height: 300px;
+    border: 1px solid rgb(172, 125, 172);
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: rgb(52, 7, 52);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+.foto{
+    height: 620px;
+    width: 25%;
+    border-top-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto__avatar > img{
+    border-radius: 32px;
+}
+
+.foto__nome > h1{
+    color: rgb(52, 7, 52);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.foto__ferramentas :hover{
+    color: blueviolet;
+}
+
+.foto__ferramentas :active{
+    color: black;
+}
+
+.foto__ferramentas > *{
+    color: rgb(52, 7, 52);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+
+}
+
+.foto__ferramentas > div > img{
+    margin-right: 15px;
+}
+
+
+
+.descricao{
+    height: 1200px;
+    max-width: 500px;
+
+}
+
+.amigos{
+    height: 450px;
+    width: 400px;
+}
+
+.comunidades{
+    height: 350px;
+    width: 400px;
+    
+}
+
+.welcome h1 {
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 10px ;
+}
+
+.sobre h2{
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.sobre p{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#aaaaaa{
+    font-size: 20px;
+    margin-left: 144px;
+    margin-top: 3px;
+}
+
+.fotosperfil img{
+    border: 2px solid rgb(172, 125, 172) ;
+    height: 130px;
+    width: 130px;
+    border-radius: 17px;
+    margin: 15px;
+}
+
+.amigos img{
+    border: 2px solid rgb(172, 125, 172) ;
+    height: 130px ;
+    width: 130px;
+    border-radius: 20px;
+    margin-left: 43px;
+   
+}
+
+#aaa{
+    font-size: 20px;
+    margin-left: 135px;
+    margin-top: 3px;
+}
+
+.comunidades img{
+    border: 2px solid rgb(172, 125, 172) ;
+    height: 130px ;
+    width: 130px;
+    border-radius: 20px;
+    margin-left: 43px;
+}
+
+
+
+.lulu{
+    font-size: 15px;
+    display: inline;
+    padding: 70px;
+    text-decoration: none;
+    color: rgb(52, 7, 52);
+    text-decoration-color: rgb(52, 7, 52);
+}
+
+.jj{
+    font-size: 15px;
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(52, 7, 52);
+    text-decoration-color: rgb(52, 7, 52);
+}
+
+#ane{
+    display: block;
+    margin-top: 3px;
+    margin-left: 68px;
+    font-size: 15px;
+}
+
+
+.foto__ferramentas img{
+    height: 17px;
+    width: 17px;
+    font-weight: 3px;
+}
+
+.tanana{
+    font-size: 20px;
+    margin-left: 10px;
+    color: 52, 7, 52;
+    text-decoration: underline;
+}
+
+.tanana :hover{
+    font-size: 23px;
+    color: blueviolet;
+}
+
+.tanana :active{
+    font-size: 23px;
+    color: bl;
+}
+
+#cellbit{
+    margin-top: 3px;
+    margin-left: 70px;
+    font-size: 15px;
+}
+
+#cellbit2{
+    margin-top: 3px;
+    margin-left: 64px;
+    font-size: 15px;
+}
+
+#membros2{
+    margin-top: 3px;
+    margin-left: 78px;
+    font-size: 15px;
+}
+
+.sair{
+    background-color: antiquewhite;
+    border: 2px solid rgb(172, 125, 172);
+    height: 24px;
+    width: 50px;
+    border-radius: 17px;
+    padding: 5px;
+}
+
+.sair a{
+    text-decoration: none;
+    text-decoration-color: rgb(52, 7, 52) ;
+    color: rgb(52, 7, 52);
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}

@@ -1,0 +1,37 @@
+body{
+    background-color:rgb(243, 185, 243);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(52, 7, 52);
+}
+
+div{
+    height: 250px;
+    width: 350px;
+    background-color: antiquewhite;
+    border: 2px solid rgb(172, 125, 172);
+    border-radius: 30px;
+    margin-top: 180px;
+    margin-left: 600px;
+}
+
+p{
+    margin-top: 24px;
+    margin-left: 73px;
+    font-size: 25px;
+}
+
+.falsobotao{
+    height: 30px;
+    width: 200px;
+    font-size: 17px;
+    margin-left: 73px ;
+    margin-top: 35px;
+    border-radius: 10px;
+    background-color: rgb(240, 150, 240);
+}
+
+a{
+    text-decoration: none;
+    text-decoration-color: rgb(52, 7, 52);
+    color: rgb(52, 7, 52);
+}
